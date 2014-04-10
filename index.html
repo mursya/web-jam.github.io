@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="index.css">
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Caption:400,700|Monoton' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Sans+Caption:400|Monoton' rel='stylesheet' type='text/css'>
     <title>Web Jam — Симферополь 2014</title>
+    <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
+	<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
 </head>
 
 <body>
 <header class="header">
-	<div class="header--map section"></div>
+	<div class="header--map dark" id="map"></div>
 	<h1 class="header--title">Web Jam — 2014</h1>
 </header>
 
@@ -99,6 +101,17 @@
 <footer class="footer section">
 	<h4>Симферополь 20 мартобря 2014 года</h4>
 </footer>
+<script>
+var map = L.mapbox.map('map', 'gurugray.ho2fj0do', {zoomControl: false, shareControl: false})
+    .setView([44.955, 34.083], 16);
+
+map.touchZoom.disable();
+map.doubleClickZoom.disable();
+map.scrollWheelZoom.disable();
+// disable tap handler, if present.
+if (map.tap) map.tap.disable();
+
+</script>
 </body>
 
 </html>
