@@ -5,7 +5,7 @@ module.exports = function(grunt) {
 
         borschik: {
             css: {
-                src: ['src/index.css'],
+                src: ['pages/index/index.css'],
                 dest: ['index.css'],
                 tech: 'css',
                 options: {
@@ -14,7 +14,7 @@ module.exports = function(grunt) {
             },
 
             js: {
-                src: ['src/index.js'],
+                src: ['pages/index/index.js'],
                 dest: ['index.js'],
                 tech: 'js',
                 options: {
@@ -31,7 +31,7 @@ module.exports = function(grunt) {
                 },
 
                 files: {
-                    'index.html': 'src/index.html'
+                    'index.html': 'pages/index/index.html'
                 }
             }
         },
