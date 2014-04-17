@@ -19,32 +19,7 @@ body
 }
 
 @import url('../../blocks/header/header.css');
-
-.section
-{
-    margin: 0;
-    padding: 120px 20px 130px;
-}
-
-.talks
-{
-    margin: 0 auto;
-
-    max-width: 700px;
-}
-
-.talks--header,
-.orgs--header,
-.people--header
-{
-    font-size: 50px;
-    font-weight: 500;
-    line-height: 25px;
-
-    margin-bottom: 75px;
-
-    text-align: center;
-}
+@import url('../../blocks/section/section.css');
 
 .talk
 {
@@ -54,11 +29,6 @@ body
     margin-bottom: 30px;
 
     text-align: center;
-}
-
-.talk:last-child
-{
-    margin-bottom: 0;
 }
 
 .talk--avatar,
@@ -104,18 +74,6 @@ body
     display: table-row;
 }
 
-.orgs,
-.people
-{
-    margin: 0 auto;
-    max-width: 900px;
-}
-
-.people-section
-{
-    background-color: #eee;
-}
-
 .people
 {
     margin-bottom: -120px;
@@ -142,13 +100,4 @@ body
     font-weight: normal;
 
     margin-bottom: 10px;
-}
-
-.footer
-{
-    font-size: 30px;
-    text-align: center;
-
-    color: #eee;
-    background: #333;
 }

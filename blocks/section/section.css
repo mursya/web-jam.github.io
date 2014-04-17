@@ -1,0 +1,41 @@
+.section
+{
+    margin: 0;
+    padding: 120px 20px 130px;
+}
+
+.section--header
+{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 25px;
+
+    margin-bottom: 75px;
+
+    text-align: center;
+}
+
+.section--inner
+{
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.section_name_people
+{
+    background-color: #eee;
+}
+
+.section_name_footer
+{
+    font-size: 30px;
+    text-align: center;
+
+    color: #eee;
+    background: #333;
+}
+
+.section_name_talks .talk:last-child
+{
+    margin-bottom: 0;
+}
