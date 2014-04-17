@@ -1,23 +1,4 @@
-body, h1, h2, h3, h4, h5, h6
-{
-    margin: 0;
-    padding: 0;
-}
-
-h1, h2, h3, h4, h5, h6
-{
-    font-family: 'PT Sans Caption', sans-serif;
-    font-weight: normal;
-}
-
-body
-{
-    font-family: 'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 100%;
-
-    color: #333;
-}
-
+@import url('../../blocks/page/page.css');
 @import url('../../blocks/header/header.css');
 @import url('../../blocks/section/section.css');
 @import url('../../blocks/talk/talk.css');
