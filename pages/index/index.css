@@ -20,18 +20,8 @@ body
 
 @import url('../../blocks/header/header.css');
 @import url('../../blocks/section/section.css');
+@import url('../../blocks/talk/talk.css');
 
-.talk
-{
-    position: relative;
-
-    min-height: 85px;
-    margin-bottom: 30px;
-
-    text-align: center;
-}
-
-.talk--avatar,
 .org--avatar
 {
     position: absolute;
@@ -49,34 +39,9 @@ body
             filter: grayscale(100%);
 }
 
-.talk--title
-{
-    font-weight: normal;
-    font-size: 30px;
-}
-
-.talk--author
-{
-    font-weight: normal;
-    font-size: 18px;
-    font-style: italic;
-
-    margin: -5px 0 10px;
-}
-
-.talk--description
-{
-    font-size: 20px;
-}
-
 .pair
 {
     display: table-row;
-}
-
-.people
-{
-    margin-bottom: -120px;
 }
 
 .org
@@ -86,11 +51,6 @@ body
     width: 50%;
     height: 80px;
     padding: 0 50px 20px 100px;
-}
-
-.people .org
-{
-    padding: 0 50px 120px 100px;
 }
 
 .org--name

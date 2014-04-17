@@ -1,0 +1,29 @@
+.talk
+{
+    position: relative;
+
+    min-height: 85px;
+    margin-bottom: 30px;
+
+    text-align: center;
+}
+
+.talk--title
+{
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.talk--author
+{
+    font-weight: normal;
+    font-size: 18px;
+    font-style: italic;
+
+    margin: -5px 0 10px;
+}
+
+.talk--description
+{
+    font-size: 20px;
+}

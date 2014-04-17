@@ -26,6 +26,16 @@
     background-color: #eee;
 }
 
+.section_name_people .section--inner
+{
+    margin-bottom: -120px;
+}
+
+.section_name_people .org
+{
+    padding: 0 50px 120px 100px;
+}
+
 .section_name_footer
 {
     font-size: 30px;
