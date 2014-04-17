@@ -21,43 +21,4 @@ body
 @import url('../../blocks/header/header.css');
 @import url('../../blocks/section/section.css');
 @import url('../../blocks/talk/talk.css');
-
-.org--avatar
-{
-    position: absolute;
-
-    width: 80px;
-    height: 80px;
-
-    margin-left: -100px;
-
-    -webkit-border-radius: 40px;
-            border-radius: 40px;
-
-    -webkit-filter: grayscale(100%);
-       -moz-filter: grayscale(100%);
-            filter: grayscale(100%);
-}
-
-.pair
-{
-    display: table-row;
-}
-
-.org
-{
-    display: table-cell;
-
-    width: 50%;
-    height: 80px;
-    padding: 0 50px 20px 100px;
-}
-
-.org--name
-{
-    font-size: 30px;
-    line-height: 30px;
-    font-weight: normal;
-
-    margin-bottom: 10px;
-}
+@import url('../../blocks/card/card.css');

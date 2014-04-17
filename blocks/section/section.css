@@ -18,7 +18,7 @@
 .section--inner
 {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 900px;
 }
 
 .section_name_people
@@ -29,11 +29,6 @@
 .section_name_people .section--inner
 {
     margin-bottom: -120px;
-}
-
-.section_name_people .org
-{
-    padding: 0 50px 120px 100px;
 }
 
 .section_name_footer
@@ -48,4 +43,24 @@
 .section_name_talks .talk:last-child
 {
     margin-bottom: 0;
+}
+
+.section_name_people .card,
+.section_name_orgs .card
+{
+    display: table-cell;
+
+    width: 50%;
+    height: 80px;
+    padding: 0 50px 20px 100px;
+}
+
+.section_name_people .card
+{
+    padding: 0 50px 120px 100px;
+}
+
+.section_name_people .section--pair
+{
+    display: table-row;
 }
