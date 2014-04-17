@@ -122,11 +122,10 @@ body
 .talk--author
 {
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
+    font-style: italic;
 
     margin: -5px 0 10px;
-
-    color: #999;
 }
 
 .talk--description
