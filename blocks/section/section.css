@@ -86,3 +86,15 @@
 
     text-decoration: underline;
 }
+
+.section_name_for a
+{
+    color: #88f;
+
+    text-decoration: none;
+}
+
+.section_name_for a:hover
+{
+    text-decoration: underline;
+}
