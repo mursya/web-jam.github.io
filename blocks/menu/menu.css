@@ -1,17 +1,11 @@
 .menu
 {
-    position: absolute;
-    top: 100px;
-    left: 50%;
+    position: relative;
 
-    margin: 0;
+    margin: 0 0 35px;
     padding: 0;
 
-    -webkit-transform: translateX(-50%);
-       -moz-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-         -o-transform: translateX(-50%);
-            transform: translateX(-50%);
+    text-align: center;
 }
 
 .menu--item
