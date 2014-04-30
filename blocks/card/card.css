@@ -33,3 +33,18 @@
 
     margin-bottom: 10px;
 }
+
+
+@media screen and (max-width: 650px) {
+    .card--avatar
+    {
+        display: none;
+    }
+
+    .card--name
+    {
+        position: relative;
+        font-size: 20px;
+        line-height: 25px;
+    }
+}

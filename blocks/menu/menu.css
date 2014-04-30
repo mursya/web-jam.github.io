@@ -37,3 +37,22 @@
 {
     color: #999
 }
+
+@media screen and (max-width: 650px) {
+    .menu
+    {
+        margin: 0 0 5px;
+    }
+
+    .menu--item
+    {
+        font-size: 18px;
+
+        border-right : 0;
+    }
+
+    .menu--item a
+    {
+        text-decoration: underline;
+    }
+}

@@ -71,3 +71,36 @@
 
     color: #fff;
 }
+
+@media screen and (max-width: 650px) {
+
+    .header--map
+    {
+        display: none;
+    }
+
+    .header
+    {
+        height: auto;
+        padding: 20px 0;
+
+        background-color: #333;
+    }
+
+    .header--title
+    {
+        font-size: 35px;
+
+        padding: 0 10px;
+    }
+
+    .header--inner
+    {
+        position: relative;
+    }
+
+    .header--date
+    {
+        font-size: 18px;
+    }
+}

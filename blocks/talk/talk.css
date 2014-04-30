@@ -31,3 +31,23 @@
 {
     font-size: 20px;
 }
+
+@media screen and (max-width: 650px) {
+
+    .talk
+    {
+        text-align: left;
+    }
+
+    .talk--title
+    {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .talk--author,
+    .talk--description
+    {
+        font-size: 15px;
+    }
+}
