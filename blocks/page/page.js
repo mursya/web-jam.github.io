@@ -1,11 +1,11 @@
 var map = L.mapbox.map(
 	'map',
-	'gurugray.ho2fj0do',
+	'gurugray.i4aa67g8',
 	{
 		zoomControl: false,
 		shareControl: false
 	})
-    .setView([44.955, 34.083], 16);
+    .setView([44.94616, 34.10092], 17);
 
 map.touchZoom.disable();
 map.doubleClickZoom.disable();

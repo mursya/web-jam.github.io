@@ -21,7 +21,8 @@
     max-width: 900px;
 }
 
-.section_name_people
+.section_name_people,
+.section_name_for
 {
     background-color: #eee;
 }
@@ -29,15 +30,6 @@
 .section_name_people .section--inner
 {
     margin-bottom: -120px;
-}
-
-.section_name_footer
-{
-    font-size: 30px;
-    text-align: center;
-
-    color: #eee;
-    background: #333;
 }
 
 .section_name_talks .talk:last-child
@@ -63,4 +55,34 @@
 .section--pair
 {
     display: table-row;
+}
+
+.section_name_when
+{
+    font-size: 30px;
+    text-align: center;
+
+    color: #eee;
+    background: #333;
+}
+
+.section--text
+{
+    font-size: 20px;
+
+    margin-top: 15px;
+}
+
+.section_name_when a
+{
+    color: #ddf;
+
+    text-decoration: none;
+}
+
+.section_name_when a:hover
+{
+    color: #fff;
+
+    text-decoration: underline;
 }

@@ -1,1 +1,1 @@
-var map=L.mapbox.map("map","gurugray.ho2fj0do",{zoomControl:!1,shareControl:!1}).setView([44.955,34.083],16);map.touchZoom.disable(),map.doubleClickZoom.disable(),map.scrollWheelZoom.disable(),map.tap&&map.tap.disable();
+var map=L.mapbox.map("map","gurugray.i4aa67g8",{zoomControl:!1,shareControl:!1}).setView([44.94616,34.10092],17);map.touchZoom.disable(),map.doubleClickZoom.disable(),map.scrollWheelZoom.disable(),map.tap&&map.tap.disable();
