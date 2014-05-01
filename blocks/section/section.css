@@ -101,6 +101,7 @@
 
 
 @media screen and (max-width: 650px) {
+
     .section
     {
         padding: 20px 15px 30px;
@@ -111,6 +112,11 @@
         font-size: 22px;
         margin-bottom: 10px;
         text-align: left;
+    }
+
+    .section_name_people .section--inner
+    {
+        margin-bottom: 0;
     }
 
     .section_name_when
@@ -125,46 +131,19 @@
         text-align: left;
     }
 
-    .section_name_people .card
-    {
-        padding: 0 10px 10px 10px;
-    }
-
-    .section_name_people .section--inner
-    {
-        margin-bottom: 0;
-    }
-
-    .section--pair,
     .section_name_people .card,
     .section_name_orgs .card
     {
         display: block;
-        width: 100%;
-        padding: 0 5px 10px 5px;
-    }
-
-    .section_name_people .card--description
-    {
-        position: relative;
-        display: block;
-    }
-
-    .section--pair
-    {
-        padding: 0 0 15px;
-    }
-
-    .section_name_orgs .card
-    {
         height: auto;
+        width: auto;
         padding: 0;
-        margin: 5px 0 2px;
+        margin: 5px 0;
     }
 
     .section_name_orgs .card--name
     {
-        margin: 5px 0 2px;
+        margin-bottom: 3px;
     }
 
     .section_name_when
