@@ -15,7 +15,7 @@
 
     margin-bottom: 5px;
 
-    line-height: 35px;
+    line-height: 30px;
 }
 
 .talk--author
@@ -30,6 +30,7 @@
 .talk--description
 {
     font-size: 20px;
+    line-height: 23px;
 }
 
 @media screen and (max-width: 650px) {
